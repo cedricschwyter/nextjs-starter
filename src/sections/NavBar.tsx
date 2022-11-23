@@ -54,7 +54,7 @@ export const NavBar = () => {
                     <Text
                         textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
                         fontSize="3xl">
-                        tectonica
+                        nextjs-starter
                     </Text>
                 </Flex>
                 <Stack

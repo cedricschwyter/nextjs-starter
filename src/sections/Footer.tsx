@@ -56,7 +56,7 @@ export default function Footer() {
                 justify={{ base: 'center', md: 'space-between' }}
                 align={{ base: 'center', md: 'center' }}>
                 <Text>© 2022 Chakra Templates. All rights reserved</Text>
-                <Text><a target={'_blank'} rel={'noreferrer'} href={'https://github.com/d3psi/tectonica/releases/tag/' + packageInfo.version}>{packageInfo.version}</a></Text>
+                <Text><a target={'_blank'} rel={'noreferrer'} href={'https://github.com/d3psi/nextjs-starter/releases/tag/' + packageInfo.version}>{packageInfo.version}</a></Text>
                 <Stack direction={'row'} spacing={6}>
                     <SocialButton label={'Twitter'} href={'#'}>
                         <FaTwitter />
